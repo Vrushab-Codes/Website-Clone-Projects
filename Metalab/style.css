@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(bgimg.avif);
+    background-size: cover;
+}
+.container .menubar{
+    height: 10vh;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .menubar .homepage{
+    border: none;
+    background-color: transparent;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    left: 46%;
+}
+.container .menubar .list{
+    margin-left: 2vw;
+    /* border: none; */
+    background-color: rgb(124, 153, 179);
+    padding: 5px 13px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: black;
+}
+.container .menubar .contact{
+    margin-right: 2vw;
+    /* border: none; */
+    background-color: rgb(124, 153, 179);
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    
+}
+.contact span{
+    margin-right: 5px;
+    display: none; 
+    
+}
+.contact:hover i{
+    border: none;
+    
+}
+.contact:hover span{
+    display: block;
+    border: none;
+    
+}
+.container .left{
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25vh;
+}
+.container .left a{
+    width: fit-content;
+    /* border: none; */
+    background-color: rgb(124, 153, 179);
+    padding: 5px 13px;
+    border-radius: 12px;
+    margin-top: 1vh;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
+}
+.container .experience{
+    position: relative;
+    top: 25vh;
+    left: 70vw;
+    width: 15vw;
+    height: 12vh;
+    font-size: 1.2rem;
+    text-shadow: 1px 2px  black;
+}
+.container .headline{
+    height: 28vh;
+    width: 42vw;
+    position: relative;
+    top: 35vh;
+    left: 30vw;
+    font-size: 3rem;
+    text-shadow: 4px 4px  black;
+}
+.container .headline #down{
+    position: absolute;
+    right: 0;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border :hover{
+    border: 2px solid rgb(208, 224, 231);
+}
+
+
