@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: arial;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.navigation{
+    width: 100%;
+    height: 60px;
+    background-color: #0F1111;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    background-image: url("images/amazon_logo.png");
+    background-size: cover;
+    display: flex;
+    height: 55px;
+    width: 100px;
+}
+.nav-toggle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.address-first{
+    color: #CCCCCC;
+    margin: 10px 10px 0 10px;
+    padding-left: 11px;
+    font-size: 12px;
+}
+.address-second{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.address-second p{
+    margin-left: 2px;
+}
+.nav-address{
+    align-items: center;
+    margin-top: 5px;
+}
+.search-box{
+    height: 55px;
+    width: 680px;
+    display: flex;
+    align-items: center;
+}
+.third-search{
+    font-size: 20px;
+    color: black;
+    background-color: rgb(230, 170, 17);
+    height: 35px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.first-search select{
+    height: 35px;
+    border: none;
+    background-color: #E6E6E6;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.second-search input{
+    height: 35px;
+    width: 600px;
+    border: none;
+    padding-left: 8px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    
+    border: 1px solid white;
+}
+#icon{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+}
+.sign-in{
+    color: white;
+    margin-top: 15px;
+}
+.sign-in select{
+    background-color: #0F1111;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+.sign-in p{
+    padding-left: 4px;
+    font-size: 12px;
+}
+.returns{
+    margin-top: 15px;
+}
+.returns p{
+    
+    font-size: 12px;
+    color: white;
+}
+span{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+.cart{
+    color: white;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.cart i{
+    font-size: 30px;
+}
+.navigation-part2{
+    display: flex;
+    background-color: #1c2727;
+    color: white;
+    height: 40px;
+    align-items: center;
+}
+.box1{
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: arial;
+}
+.box2{
+    margin-left: 15px;
+    font-size: 14px;
+}
+.main-body{
+    background-image: url("images/backgroundmain.jpg");
+    height: 680px;
+    width: 100%;
+    background-size: cover;
+    background-position: right;
+}
+.emptydiv{
+    /* background-color: yellow; */
+    height: 280px;
+}
+.fourpart{
+    height: 400px;
+    /* background-color: orange; */
+    display: flex;
+}
+.fbox1{
+    /* background-color: pink; */
+    height: 350px;
+    border: none;
+    width: 350px;
+    margin: 10px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+}
+.inside-fourpart{
+    height: 300px;
+    width: 100%;
+}
+.ifupside{
+    height: 150px;
+    width: 100%;
+    display: flex;
+}
+.ifupart1{
+    height: 125px;
+    width: 160px;
+}
+.ifupart1 img{
+    height: 120px;
+    width: 150px;
+    margin: 5px;
+    background-size: cover;
+}
+.ifupart1 p{
+    font-size: 12px;
+}
+.see{
+    font-size: 12px;
+    margin-top: 5px;
+    color: rgb(29, 18, 161);
+    display: flex;
+}
+.cpuhai{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("images/cpu.jpg");
+}
+.heading{
+    display: flex;
+}
+.decorhai{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("images/decor.jpg");
+}
+.makeuphai{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("images/makeup.jpg");
+}
+
+.dollshai{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("images/dolls.jpg");
+}
+.part2-mainbody{
+    background-color: rgb(213, 203, 203);
+}
+.backtop{
+    height: 50px;
+    width: 100%;
+    background-color: #354251;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot{
+    height: 300px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    background-color: #232f3e;
+}
+.footer{
+    height: 200px;
+    width: 300px;
+    color: white;
+    padding-left: 100px;
+    padding-top: 40px;
+    line-height: 2;
+}
+.footer p{
+    font-size: 12px;
+    font-weight: 400;
+}
+h5{
+    font-size: 16px;
+}
+
